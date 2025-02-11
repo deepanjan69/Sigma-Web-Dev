@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Trial</h1>
+    <form action="post">
+        <input type="text" id="username" name="username" placeholder="Enter username">
+        <h2>with label tag</h2>
+        <div>
+            <label for="username">Enter username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+        </div>
+        <div>   
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="sub" name="sub" value="yes">
+            <label for="sub">Subscribe for updates</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="45" rows="10" placeholder="Enter your comment"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="banana">Banana</option>
+                <option value="apple">Apple</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+        <div>
+            
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

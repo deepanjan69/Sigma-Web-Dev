@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid blue;
+    display: inline;
+}
+.block{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 84px;
+    margin: 34px;
+}
