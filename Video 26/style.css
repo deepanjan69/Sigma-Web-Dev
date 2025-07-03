@@ -1,0 +1,12 @@
+.box{
+    width: 30vw;
+    height: 10vh;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.box2{
+    width: 30vw;
+    height: 20vh;
+    border: 2px solid black;
+    overflow: auto;
+}

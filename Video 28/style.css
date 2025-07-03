@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 433px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+.box1 {
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    height: 111px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.box2 {
+    background-color: aquamarine;
+    /* position: relative;
+    top: 34px;
+    left: 50px; */
+}
+
+.box3 {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    left: 25vw;
+    height: 133px;
+}
+
+.box4 {
+    background-color: chartreuse;
+}
+
+.parent {
+    padding: 34px;
+    margin: 43px;
+    border: 3px solid purple;
+    /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    /* perspective: 0em; */
+}
